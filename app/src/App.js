@@ -10,6 +10,7 @@ import Dashboard from "./components/dashboard/dashboard"
 import Items from "./components/items/items"
 import Categories from "./components/categories/categories"
 import Inventory from "./components/inventory/inventory"
+import Department from "./components/department/department"
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/items" component={Items} />
           <Route exact path="/categories" component={Categories} />
           <Route exact path="/inventory" component={Inventory} />
+          <Route exact path="/department" component={Department} />
         </main>
       </div>
     )
