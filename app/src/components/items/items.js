@@ -15,7 +15,9 @@ class Items extends React.Component {
   }
   state = {}
   fetch = async () => {}
-  componentWillMount() {}
+  componentWillMount() {
+    this.fetch()
+  }
   componentDidMount = async () => {}
 
   render() {
@@ -23,9 +25,25 @@ class Items extends React.Component {
       <div>
         <Dashboard />
         <hr />
-        <table border="1">
+        <Button>Add New</Button>
+        <hr />
+        <table border="1" cellpadding="10" cellspacing="0">
           <tr>
-            <td>items</td>
+            <td>Item Name</td>
+            <td>Category</td>
+            <td>Size</td>
+            <td>Picture</td>
+            <td>Action</td>
+          </tr>
+          <tr>
+            <td>Burger Buns</td>
+            <td>Raw</td>
+            <td>Jumbo</td>
+            <td>n/a</td>
+            <td><Button>Edit</Button> <Button>Delete</Button></td>
+          </tr>
+          <tr>
+            <td colspan="5">No item yet</td>
           </tr>
         </table>
       </div>
