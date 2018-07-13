@@ -24,6 +24,7 @@ class Items extends React.Component {
     return (
       <div>
         <Dashboard />
+        <h3>Items</h3>
         <hr />
         <Button>Add New</Button>
         <hr />
@@ -31,6 +32,7 @@ class Items extends React.Component {
           <tr>
             <td>Item Name</td>
             <td>Category</td>
+            <td>Department</td>
             <td>Size</td>
             <td>Picture</td>
             <td>Action</td>
@@ -38,6 +40,7 @@ class Items extends React.Component {
           <tr>
             <td>Burger Buns</td>
             <td>Raw</td>
+            <td>Kitchen</td>
             <td>Jumbo</td>
             <td>n/a</td>
             <td><Button>Edit</Button> <Button>Delete</Button></td>
