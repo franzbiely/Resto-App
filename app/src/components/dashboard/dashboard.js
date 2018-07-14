@@ -25,6 +25,9 @@ class Dashboard extends React.Component {
           <li><Link to='./items'>Items</Link></li>
           <li><Link to='./categories'>Categories</Link></li>
           <li><Link to='./department'>Department</Link></li>
+          <li><Link to='./purchases'>Purchases</Link></li>
+          <li><Link to='./recipe'>Recipe</Link></li>
+          <li><Link to='./sales'>Sales</Link></li>
           <li><Link to='./reports'>Reports</Link></li>
         </ul>
       </div>

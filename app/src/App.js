@@ -11,6 +11,9 @@ import Items from "./components/items/items"
 import Categories from "./components/categories/categories"
 import Inventory from "./components/inventory/inventory"
 import Department from "./components/department/department"
+import Sales from "./components/sales/sales"
+import Purchases from "./components/purchases/purchases"
+import Recipe from "./components/recipe/recipe"
 
 class App extends Component {
   render() {
@@ -22,6 +25,9 @@ class App extends Component {
           <Route exact path="/categories" component={Categories} />
           <Route exact path="/inventory" component={Inventory} />
           <Route exact path="/department" component={Department} />
+          <Route exact path="/sales" component={Sales} />
+          <Route exact path="/recipe" component={Recipe} />
+          <Route exact path="/purchases" component={Purchases} />
         </main>
       </div>
     )
